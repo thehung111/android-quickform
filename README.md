@@ -27,3 +27,5 @@ A form is made up of different sections which consists of different form element
 
 - All screens to extend from HBaseFormActivity
 - Just need to override createRootElement() to create a root form element
+
+![Android Quickform](https://raw.github.com/thehung111/android-quickform/master/screenshot.png)
