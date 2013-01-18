@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FormRowStyle"
+    android:orientation="vertical" 
+    >
+
+    <TextView
+       android:id="@+id/labelTextView"
+       style="@style/FormLabelStyle" />
+
+    <EditText
+        android:id="@+id/valueTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    	android:inputType="text"
+    	android:maxLines="1"
+    	android:singleLine="true"
+    	android:imeOptions="actionNext"
+    	android:gravity="top|left"
+    />
+   
+
+</LinearLayout>

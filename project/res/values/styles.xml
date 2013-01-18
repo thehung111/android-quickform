@@ -1,0 +1,39 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:textColorSecondaryInverse">@android:color/secondary_text_light</item>
+    </style>
+    
+    <style name="FormLabelStyle" >
+        <item name="android:layout_width">fill_parent</item>
+     	<item name="android:layout_height">wrap_content</item>
+     	<item name="android:paddingLeft">2dp</item>
+     	<item name="android:textSize">14sp</item>
+     	<item name="android:textStyle">bold</item>
+    </style>
+    
+	<style name="FormRowStyle" >
+        <item name="android:layout_width">match_parent</item>
+     	<item name="android:layout_height">wrap_content</item>
+     	<item name="android:paddingLeft">5dp</item>
+     	<item name="android:paddingRight">5dp</item>
+     	<item name="android:paddingTop">2dp</item>
+     	<item name="android:paddingBottom">2dp</item>
+		<item name="android:minHeight">32dp</item>
+    </style>
+
+</resources>
